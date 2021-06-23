@@ -1,0 +1,312 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato',  sans-serif;
+    background-color: #fff; 
+
+}
+
+*{
+    box-sizing: border-box;
+}
+
+/* header  */
+
+.header{
+    padding-top: 10px; 
+    width:100%;
+}
+
+.header .header2 a{
+    color:black;
+}
+
+/* header ends */
+
+
+/* banner starts */
+
+.my-banner{
+    background-image:url(../img/banner1.jpg);
+    width:100%;
+    background-position:center top;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    padding-bottom:120px;
+    padding-top:100px;
+}
+
+.my-banner .banner{
+    color:#fff;
+}
+.banner h3{
+    font-size:2.5rem;
+}
+.banner h1{
+    font-size:5.5rem;
+}
+
+.banner h2{
+    font-size:5.5rem ;
+}
+.banner .btn{
+    width:35%;
+     background-color:rgb(0, 0, 34);
+     height:45px;
+     font-size:2.0rem;
+     margin-top:20px;
+     border-radius:7Px;
+
+}
+
+/* banner ends */
+
+/*    wraper starts   */
+.wraper{
+    margin-top: 20px;
+}
+
+.wraper1{
+    margin-top: 100px;
+
+}
+.wraper1 h1{
+    color:rgb(41, 17, 17);
+    font-size: 5rem; 
+    letter-spacing: 1px;
+    
+    
+}
+.wraper1 p{
+    padding-top:30px;
+    line-height:23px ;
+    color:gray;
+}
+.wraper1 .btn1{
+    width:35%;
+    background-color:rgb(41, 17, 17);   
+    height:45px;
+    font-size:2.0rem;
+    margin-top:20px;
+    color:#fff;
+    border-radius: 7px;
+
+}
+
+/*  wraper ends  */
+
+/* three-section  */
+
+.three-section{
+    width:100%;
+    background-color:rgb(0, 0, 34);
+    position: relative;
+    top:50px;
+   
+}
+.three-section img{
+    padding-bottom:20px;
+}
+
+.three-section h1{
+    color:#fff;
+    font-size:2.9em; 
+}
+.three-section p{
+    color:gray;
+    line-height:3px;
+    letter-spacing:1px;
+    margin-top:20px;
+}
+
+/*  three-section ends */
+
+
+/*    one-section    */
+.one-section{
+    position: relative;
+    top:70px;
+}
+.one-section h1{
+    color:black;
+    
+}
+.one-section img{
+    margin-top:30px;
+    width:100%;
+}
+
+/*   one-section  ends  */
+
+/*   three-images  */
+
+.three-images{
+    background-image:url(../img/tra_bg.jpg);
+    width:100%;
+    position: relative;
+    top:140px;
+    color:#fff;
+    padding-bottom:30px ;
+    
+}
+.three-images .text-center{
+    position: relative;
+    top:20px;
+}
+   
+.text-center h1{
+    font-size: 4.3rem;
+   
+}
+.three-images .text-center p{
+    font-size:1.7rem;
+    padding-top:10px; 
+}
+.three-images img{
+    padding-top:40px;
+}
+.three-images h2{
+    font-size:2.2rem;
+    text-align: center;
+    
+}
+.three-images h3{
+    text-align: center;
+    font-size:1.4rem;
+    
+}
+
+/*    three-images ends  */
+
+/* six images  */
+
+.six-images{
+    width:100%;
+    background-color:rgb(0, 0, 34);
+    padding-bottom:30px ;
+}
+    
+.six-images .text-center{
+    margin-top:10%;
+
+}
+.six-images .text-center h1{
+    color:#fff;
+
+}
+.six-images .text-center p{
+    margin-bottom:40px;
+    color:gray;
+}
+
+
+.six-images img{
+    width:103%;
+    padding-bottom:15px;
+    
+}
+
+/*  six images ends   */
+
+/*    form   */
+.form-group{
+    padding-bottom: 30px;
+}
+
+.form{
+    margin-top:40px;
+}
+.form .message{
+    width:100%;
+    height: 100px;
+    border:1px solid  blue;
+}
+.form .btn{
+    width:25%;
+    background-color:rgb(41, 17, 17);
+    height:40px;
+    border-radius:7px ;
+    color:#fff;
+   
+
+}
+
+/* form ends  */
+
+/* footer start */
+
+.footer{
+    width:100%;
+    background-color: rgb(0, 0, 34);
+    color:#fff;
+    position: relative;
+    top:30px;
+    padding-bottom:30px;
+   
+}
+
+.footer .footer1{
+    margin-top:20px;
+}
+
+.footer1 .btn{
+    background-color:chocolate;
+
+}
+.text-center{
+    padding:40px 30px;
+    font-size:1.5rem;
+
+}
+
+/* footer ends  */
+
+@media only screen and (max-width:650px){
+    .header .header2 a{
+        display: block;
+        float:left;
+        
+        
+    }
+    .my-banner .banner{
+        width:100%;
+        text-align: center;
+    }
+    .banner .btn{
+        width:40%;
+    }
+    .wraper .wraper1{
+        width:100%;
+        text-align: center;
+    }
+    .wraper img{
+        margin-top:30px;
+
+    }
+
+    .six-images .text-center{
+        margin-top:21% ;
+
+    }
+    .form-group {
+        width:100%;
+        text-align: center;
+    }
+    .form-group .iframe{
+        margin-top:30px;
+
+    }
+    .three-section  .text-center p{
+        line-height: normal;
+        letter-spacing: normal;
+    }
+    .footer1 {
+       width: 100%;
+       text-align: center;
+    }
+    .text-center{
+        font-size:1.orem;
+    }
+       
+}
